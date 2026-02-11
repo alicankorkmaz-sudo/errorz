@@ -34,13 +34,13 @@ Add dependencies to your module's `build.gradle.kts`:
 ```kotlin
 dependencies {
     // Core (required)
-    implementation("com.github.alicankorkmaz-sudo.errorz:core:v0.1.0")
+    implementation("com.github.alicankorkmaz-sudo.errorz:core:v0.1.1")
 
     // Retrofit adapter (if using Retrofit)
-    implementation("com.github.alicankorkmaz-sudo.errorz:retrofit-adapter:v0.1.0")
+    implementation("com.github.alicankorkmaz-sudo.errorz:retrofit-adapter:v0.1.1")
 
     // Kotlinx Serialization support (if using kotlinx.serialization)
-    implementation("com.github.alicankorkmaz-sudo.errorz:serialization-kotlinx:v0.1.0")
+    implementation("com.github.alicankorkmaz-sudo.errorz:serialization-kotlinx:v0.1.1")
 }
 ```
 
