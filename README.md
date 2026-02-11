@@ -9,28 +9,22 @@ A multi-module error handling library for Android that brings structure to API e
 
 | Module | Artifact | Description |
 |--------|----------|-------------|
-| **core** | `com.alicankorkmaz.errorz:core` | Failure types, Result monad, exception mapping, `safeCall` |
-| **retrofit-adapter** | `com.alicankorkmaz.errorz:retrofit-adapter` | Retrofit bridge — `safeApiCall`, response wrapping |
-| **serialization-kotlinx** | `com.alicankorkmaz.errorz:serialization-kotlinx` | Kotlinx Serialization error body parser |
+| **core** | `errorz:core` | Failure types, Result monad, exception mapping, `safeCall` |
+| **retrofit-adapter** | `errorz:retrofit-adapter` | Retrofit bridge — `safeApiCall`, response wrapping |
+| **serialization-kotlinx** | `errorz:serialization-kotlinx` | Kotlinx Serialization error body parser |
 
 ## Installation
 
-### GitHub Packages
+[![](https://jitpack.io/v/alicankorkmaz-sudo/errorz.svg)](https://jitpack.io/#alicankorkmaz-sudo/errorz)
 
-Add the GitHub Packages repository to your `settings.gradle.kts`:
+Add the JitPack repository to your `settings.gradle.kts`:
 
 ```kotlin
 dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://maven.pkg.github.com/alicankorkmaz-sudo/errorz")
-            credentials {
-                username = providers.gradleProperty("gpr.user").getOrElse(System.getenv("GITHUB_ACTOR"))
-                password = providers.gradleProperty("gpr.key").getOrElse(System.getenv("GITHUB_TOKEN"))
-            }
-        }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 ```
@@ -40,13 +34,13 @@ Add dependencies to your module's `build.gradle.kts`:
 ```kotlin
 dependencies {
     // Core (required)
-    implementation("com.alicankorkmaz.errorz:core:0.1.0")
+    implementation("com.github.alicankorkmaz-sudo.errorz:core:v0.1.0")
 
     // Retrofit adapter (if using Retrofit)
-    implementation("com.alicankorkmaz.errorz:retrofit-adapter:0.1.0")
+    implementation("com.github.alicankorkmaz-sudo.errorz:retrofit-adapter:v0.1.0")
 
     // Kotlinx Serialization support (if using kotlinx.serialization)
-    implementation("com.alicankorkmaz.errorz:serialization-kotlinx:0.1.0")
+    implementation("com.github.alicankorkmaz-sudo.errorz:serialization-kotlinx:v0.1.0")
 }
 ```
 
