@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest7948914262232586959.xml:2:13-83
+INJECTED from /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest7948914262232586959.xml:2:13-83
+	package
+		INJECTED from /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest7948914262232586959.xml
+	xmlns:android
+		ADDED from /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest7948914262232586959.xml:2:23-81
+uses-sdk
+INJECTED from /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest7948914262232586959.xml reason: use-sdk injection requested
+INJECTED from /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest7948914262232586959.xml
+INJECTED from /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest7948914262232586959.xml
+	android:targetSdkVersion
+		INJECTED from /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest7948914262232586959.xml
+	android:minSdkVersion
+		INJECTED from /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest7948914262232586959.xml

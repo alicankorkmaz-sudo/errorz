@@ -1,0 +1,10 @@
+com.alicankorkmaz.errorz.feature.profile-release-0 /Users/alican.korkmaz/Code/alican/errorz/core/build/intermediates/packaged_res/release/packageReleaseResources
+com.alicankorkmaz.errorz.feature.profile-pngs-1 /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/generated/res/pngs/release
+com.alicankorkmaz.errorz.feature.profile-updated_navigation_xml-2 /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/generated/updated_navigation_xml/release
+com.alicankorkmaz.errorz.feature.profile-mergeReleaseResources-3 /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.alicankorkmaz.errorz.feature.profile-mergeReleaseResources-4 /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.alicankorkmaz.errorz.feature.profile-release-5 /Users/alican.korkmaz/Code/alican/errorz/feature/profile/build/intermediates/merged_res/release/mergeReleaseResources
+com.alicankorkmaz.errorz.feature.profile-main-6 /Users/alican.korkmaz/Code/alican/errorz/feature/profile/src/main/res
+com.alicankorkmaz.errorz.feature.profile-release-7 /Users/alican.korkmaz/Code/alican/errorz/feature/profile/src/release/res
+com.alicankorkmaz.errorz.feature.profile-release-8 /Users/alican.korkmaz/Code/alican/errorz/retrofit-adapter/build/intermediates/packaged_res/release/packageReleaseResources
+com.alicankorkmaz.errorz.feature.profile-release-9 /Users/alican.korkmaz/Code/alican/errorz/serialization-kotlinx/build/intermediates/packaged_res/release/packageReleaseResources
