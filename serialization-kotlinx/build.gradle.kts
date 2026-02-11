@@ -31,7 +31,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.alicankorkmaz.errorz"
             artifactId = "serialization-kotlinx"
-            version = "0.1.0"
+            version = project.version.toString()
 
             afterEvaluate {
                 from(components["release"])

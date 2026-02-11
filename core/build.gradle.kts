@@ -30,7 +30,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.alicankorkmaz.errorz"
             artifactId = "core"
-            version = "0.1.0"
+            version = project.version.toString()
 
             afterEvaluate {
                 from(components["release"])
